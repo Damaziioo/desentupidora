@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAS Soluções</title>
+    <link rel="shortcut icon" href="img/favicon-xande.ico" type="image/x-icon" />
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- CSS do projeto -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="buttonzap">
+        <a href='https://api.whatsapp.com/send?phone=552199595454&' class="icon" target="_blank" >
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-3">
+            <a class="navbar-brand primary-color" href="#">
+                <span style="color: #fff;">SAS Soluções</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active primary-color" aria-current="page" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link primary-color" href="#Serviços">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link primary-color" href="#SobreNos">Sobre nós</a>
+                    <li class="nav-item">
+                        <a class="nav-link primary-color" href="#Contatos" >Contatos</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- SLIDER -->
+    <section id="slider-section">  
+    <div class="container">
+        <h2 class="text-center mb-5">Projetos em Destaque</h2>
+        <div id="slider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button class="active" data-bs-target="#slider" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                <button data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="img/Caminhão.JPG" alt="Atendimento Domiciliar Especializado" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Atendimento Domiciliar Especializado</h5>
+                        <p>Nossa equipe oferece serviços especializados diretamente em sua residência.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/reforma.jpg" alt="Reforma do Sistema de Tratamento Sanitário" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Reforma do Sistema de Tratamento Sanitário </h5>
+                        <p>Transformamos espaços com nossos serviços de reforma.</p>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="img/ETE.jpg" alt="Foto do apartamento" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Atendimento Personalizado para Concessionárias</h5>
+                        <p>Oferecemos soluções adaptadas às necessidades das concessionárias.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+        </div>
+    </section>
+
+
+
+    <section id="banners"></section>
+               
+        <!-- BANNERS-->
+        <div class="col-12 col-md-10 offset-md-1" id="mini-banners serviços">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-geo-alt primary-color">
+                            <div class="card-body">
+                                <h5 class="card-title primary-color">Atendimento 24h</h5>
+                                <p class="card-text secundary-color">Temos equipes preparadas para resolver seus problemas em Todos os Bairros do Rio de Janeiro.</p>
+                            </div>
+                        </i>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-layers primary-color">
+                            <div class="card-body">
+                                <h5 class="card-title primary-color">Revisões e Manutenções</h5>
+                                <p class="card-text secundary-color">Realizamos revisões e manutenções preventivas para evitar problemas mais graves.</p>
+                            </div>
+                        </i>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-lightning-charge primary-color">
+                            <div class="card-body">
+                                <h5 class="card-title primary-color">Rápido Deslocamento</h5>
+                                <p class="card-text secundary-color">Nosso deslocamento leva no máximo 1 hora até o local do sinistro.</p> 
+                            </div>
+                        </i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section id="Serviços">
+    <!-- Servicos -->
+    <div class="container border-top-cont" id="featured-container">
+        <div class="col-12">
+            <h2 class="title primary-color">Serviços em Destaque</h2>
+            <p class="subtitle secondary-color">
+                Conheça nossos serviços
+            </p>
+        </div>
+        <div class="listaServico">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Desentupidora de pia</li>
+                <li class="list-group-item">Desentupidora de vaso sanitário</li>
+                <li class="list-group-item">Desentupidora de ralos</li>
+                <li class="list-group-item">Desentupidora de Esgotos</li>
+                <li class="list-group-item">Limpeza de fossa</li>
+                <li class="list-group-item">Limpeza de Caixa de Gordura</li>
+                <li class="list-group-item">Limpeza de Caixa d'agua</li>
+              </ul>
+        </div>
+    </div>
+</section>
+<section id="SobreNos">
+    <!-- INFO -->
+    <div class="container border-top-cont" id="info-container ">
+        <div class="col-12">
+            <h2 class="title primary-color">Detalhes Importantes</h2>
+            <p class="subtitle secondary-color">
+                Nossa equipe e nossos equipamentos têm décadas de experiência no mercado. Nossa frota de caminhões combinados é equipada com os melhores dispositivos disponíveis. Priorizamos a manutenção preventiva e corretiva para garantir o melhor desempenho. Nosso compromisso principal é sempre com o cliente, fornecendo serviços confiáveis e soluções eficazes para suas necessidades de desentupimento.
+            </p>
+        </div>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-md-5" id="info-banner">
+                    <img src="img/imagem-informa.jpg" alt="Informações" class="img-fluid" />
+                </div>
+                <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="title">Sobre nós:</h2>
+                            <p class="subtitle secondary-color">
+                                Com mais de 15 anos de excelência no mercado, nossa desentupidora oferece serviços especializados para condomínios, comércios e concessionárias. Nosso compromisso é proporcionar a melhor assistência, resolvendo problemas de forma rápida e eficiente. Conte com nossa equipe experiente e equipamentos de ponta para garantir resultados impecáveis em todos os serviços prestados.
+                            </p>
+                        </div>
+                        <div class="col-12" id="info-numbers">
+                            <div class="row">
+                                <div class="col-4">
+                                    <h3 class="primary-color">+15</h3>
+                                    <p class="secondary-color">Anos na área</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="primary-color">+20</h3>
+                                    <p class="secondary-color">Contratos Atendidos</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="primary-color">+677</h3>
+                                    <p class="secondary-color">Clientes satisfeitos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="Contatos">
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-secundary-color" id="footer">
+        <div class="container">
+            <div class="row">
+                <!-- FOOTER TOP -->
+                <div class="col-12" id="footer-top">
+                    <div class="row justify-content-between">
+                        <div class="col-4">
+                            <h2>
+                                SAS Soluções
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOOTER DETAILS -->
+                
+                <div class="col-12" id="footer-details">
+                    <div class="row">
+                        <div class="col-12 col-md-4" id="news-container">
+                            <h4>Contato</h4>
+                            <p class="secondary-color">
+                                Entre em contato conosco:
+                            </p>
+                            <form action="https://formsubmit.co/saneamento.bs@gmail.com" method="POST">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Digite seu nome:</label>
+                                    <input type="text" name="Nome" class="form-control" id="exampleFormControlInput1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Digite seu e-mail:</label>
+                                    <input type="email" name="Email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="nome@exemplo.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Digite o seu
+                                        desejo:</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <button class="btn btn-dark" type="submit">Enviar</button>
+                                <input name="_subject" type="hidden" value="Novo contato">
+                                <input type="text" name="_honey" style="display: none;">
+                                <input type="hidden" name="_captcha" value="false">
+                            </form>
+                        </div>
+                        <div class="col-12 col-md-4" id="contact-container">
+                            <h4>Formas de contato</h4>
+                            <p class="secondary-color">Telefone: (21) 98342-5925 - Alfredo</p>
+                            <p class="secondary-color">Email: sassolucoes.contato@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOOTER BOTTOM -->
+                <div class="col-12" id="footer-bottom">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-md-3">
+                            <p class="secondary-color">Damazio &copy; 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+</body>
+
+</html>
